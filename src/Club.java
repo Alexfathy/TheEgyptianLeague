@@ -18,8 +18,8 @@ public class Club {
         stadiumsNo = 0;
         //initialize the arrays
         players = new Player[30];
-        buildings = new Building[50];
-        employees = new Employee[200];
+        buildings = new Building[10];
+        employees = new Employee[500];
         stadiums = new Stadium[10];
     }
     // a method to add player to the club
@@ -65,7 +65,8 @@ public class Club {
 
     @Override
     public String toString() {
-        String str = "Welcome to "+this.name+" Club! \n this club has : "+playersNo+" Players \n : "+employeesNo+" employees \n"
+        String str = "Welcome to "+this.name+" Club! \n this club has : "+playersNo+
+                " Players \n : "+employeesNo+" employees \n"
                 +buildingsNo+" Building";
         return str;
     }
