@@ -20,4 +20,8 @@ public class Employee {
     public String getPosition() {
         return position;
     }
+
+    public void anyMethod(){
+
+    }
 }
